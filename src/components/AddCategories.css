@@ -1,0 +1,15 @@
+.add__container {
+  margin-top: 3em;
+  margin-bottom: 8em;
+  padding-top: 3em;
+}
+.add__input {
+  width: 100%;
+  padding: 0.6em 1.2em;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: antiquewhite;
+  border: none;
+  border-bottom: 2px solid #77f09d;
+  outline: none;
+}

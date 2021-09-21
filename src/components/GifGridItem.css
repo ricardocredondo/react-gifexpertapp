@@ -1,0 +1,15 @@
+.gifgriditem {
+  margin: 0.8em;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: aliceblue;
+  /* flex: 2 2 auto; */
+}
+.gifgriditem__img {
+  width: 100%;
+  vertical-align: top;
+}
+.gifgriditem__text {
+  padding: 0.4em 0;
+}
