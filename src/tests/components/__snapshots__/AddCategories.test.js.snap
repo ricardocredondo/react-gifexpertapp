@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategories /> debe funcionar correctamente 1`] = `
+<article
+  className="add__container"
+>
+  <p />
+  <form
+    className="add__formulario"
+    onSubmit={[Function]}
+  >
+    <input
+      className="add__input"
+      onChange={[Function]}
+      placeholder="buscar categoria"
+      type="text"
+      value=""
+    />
+  </form>
+</article>
+`;

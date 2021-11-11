@@ -3,8 +3,9 @@ import AddCategories from './AddCategories';
 import GifGrid from './GifGrid';
 import './GifExpertApp.css';
 
-const GifExpertApp = () => {
-  const [categorias, setCategorias] = useState([]);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  // const [categorias, setCategorias] = useState([]);
+  const [categorias, setCategorias] = useState(defaultCategories);
   return (
     <div className="container">
       <header className="gifexpert__header">
